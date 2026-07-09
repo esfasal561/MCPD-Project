@@ -1,85 +1,50 @@
-# MCPD Project
+# MCPD Project — Documentazione Tecnica Completa
 
 Il MCPD (Magneto‑Cyclotronic Pulsed Drive) è un motore al plasma avanzato.  
-Utilizza campi magnetici ed elettrostatici pulsati per generare, accelerare, comprimere  
-e collimare un getto di plasma ad alta energia, producendo spinta senza combustione  
-e senza propellente termico.
+Questa documentazione raccoglie **tutti i moduli**, **tutte le sezioni**,  
+e **tutte le analisi tecniche** del sistema.
 
 ---
 
-## Obiettivo del sistema
+# 📘 Indice della Documentazione
 
-Il MCPD è progettato per:
+## 🔹 Fondamenti del Plasma
+- [Principi fisici del plasma](mcpd/principi-plasma.md)
+- [Ionizzazione e sorgente](mcpd/sorgente.md)
+- [Confinamento magnetico](mcpd/confinamento.md)
 
-- generare plasma ad alta densità tramite sorgente dedicata  
-- accelerarlo mediante ciclotrone pulsato  
-- comprimerlo magneticamente (MCPC + θ‑pinch)  
-- collimarlo in un ugello magnetico  
-- espellerlo come getto di plasma per produrre spinta
+## 🔹 Ciclotrone MCPD
+- [Struttura del ciclotrone](mcpd/ciclotrone.md)
+- [Accelerazione ciclotronica](mcpd/accelerazione.md)
+- [Sincronizzazione RF](mcpd/sincronizzazione.md)
 
-La propulsione è quindi **interamente basata sul plasma**, mentre la parte magnetica  
-è il mezzo di manipolazione e controllo del flusso.
+## 🔹 Compressione del Plasma
+- [MCPC — Compressione magnetica ciclotronica pulsata](mcpd/mcpc.md)
+- [Compressione θ‑pinch](mcpd/theta-pinch.md)
+- [Compressione longitudinale](mcpd/compressione-longitudinale.md)
 
----
+## 🔹 Theta Rail
+- [Struttura della Railway](mcpd/theta-rail.md)
+- [Confinamento del plasma nella guida](mcpd/confinamento-guida.md)
+- [Interfaccia con l’ugello](mcpd/interfaccia-ugello.md)
 
-## Architettura del motore
+## 🔹 Ugello Magnetico
+- [Collimazione del getto](mcpd/collimazione.md)
+- [Espulsione del plasma](mcpd/espulsione.md)
+- [Generazione della spinta](mcpd/spinta.md)
 
-### **1. Sorgente di plasma**
-Generazione del flusso di particelle cariche tramite ionizzazione controllata.  
-Il plasma viene estratto e inviato verso la Railway magnetica.
+## 🔹 Controllo e Diagnostica
+- [Controllo dei campi](mcpd/controllo-campi.md)
+- [Telemetria e diagnostica](mcpd/diagnostica.md)
+- [Sicurezza operativa](mcpd/sicurezza.md)
 
-### **2. Ciclotrone MCPD**
-Accelerazione ciclotronica pulsata.  
-Il plasma viene portato a energie elevate tramite campi magnetici variabili e  
-sincronizzati con la frequenza di rotazione.
-
-### **3. Compressione magnetica (MCPC + θ‑pinch)**
-Il plasma accelerato viene compresso radialmente e longitudinalmente per aumentare  
-densità, temperatura e stabilità del getto.
-
-### **4. Theta Rail**
-Struttura di guida magnetica che mantiene il plasma confinato e diretto verso  
-l’ugello magnetico finale.
-
-### **5. Ugello magnetico**
-Collimazione del getto di plasma e conversione dell’energia cinetica in spinta utile.
-
----
-
-## Vantaggi del MCPD
-
-- Nessuna combustione  
-- Nessun propellente chimico  
-- Elevata efficienza energetica  
-- Controllo fine del plasma tramite campi magnetici  
-- Possibilità di funzionamento continuo o pulsato  
-- Architettura modulare e scalabile
+## 🔹 Architettura Generale
+- [Schema del sistema](mcpd/architettura.md)
+- [Moduli funzionali](mcpd/moduli.md)
+- [Roadmap tecnica](mcpd/roadmap.md)
 
 ---
 
-## Documentazione tecnica
-
-La documentazione completa del progetto MCPD è organizzata in sezioni:
-
-- **Principi fisici del motore al plasma**  
-- **Struttura del ciclotrone MCPD**  
-- **Compressione magnetica e θ‑pinch**  
-- **Theta Rail e confinamento del plasma**  
-- **Ugello magnetico e generazione della spinta**  
-- **Analisi dei limiti fisici e ingegneristici**  
-- **Roadmap di sviluppo del sistema**
-
----
-
-## Stato del progetto
-
-Questa homepage rappresenta la versione ordinata e aggiornata della documentazione MCPD.  
-Il materiale viene consolidato progressivamente per ottenere una descrizione tecnica  
-chiara, coerente e consultabile come un manuale ingegneristico.
-
----
-
-## Manutenzione
-
-Il progetto MCPD‑Project è mantenuto da **esfasal561**.  
-Gli aggiornamenti vengono pubblicati man mano che i moduli tecnici vengono completati.
+# 📡 Stato del progetto
+La documentazione viene aggiornata progressivamente.  
+Ogni sezione è cliccabile e porta alla pagina tecnica corrispondente.
