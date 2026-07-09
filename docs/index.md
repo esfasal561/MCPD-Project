@@ -1,50 +1,71 @@
 # MCPD Project — Documentazione Tecnica Completa
 
 Il MCPD (Magneto‑Cyclotronic Pulsed Drive) è un motore al plasma avanzato.  
-Questa documentazione raccoglie **tutti i moduli**, **tutte le sezioni**,  
-e **tutte le analisi tecniche** del sistema.
+Questa documentazione raccoglie tutti i moduli, le analisi e le dinamiche del sistema.
 
 ---
 
-# 📘 Indice della Documentazione
+# 📘 Indice della Documentazione MCPD
 
-## 🔹 Fondamenti del Plasma
-- [Principi fisici del plasma](mcpd/principi-plasma.md)
-- [Ionizzazione e sorgente](mcpd/sorgente.md)
-- [Confinamento magnetico](mcpd/confinamento.md)
+## 🔹 Panoramica e Architettura
+- [Panoramica MCPD](mcpd/mcpd_overview.md)
+- [Architettura del Sistema](mcpd/mcpd_architettura.md)
+- [Funzionamento del MCPD](mcpd/mcpd_funzionamento.md)
+- [Modelli di Spinta](mcpd/mcpd_modelli_spinta.md)
+- [Scenari di Missione](mcpd/mcpd_scenari_missione.md)
 
-## 🔹 Ciclotrone MCPD
-- [Struttura del ciclotrone](mcpd/ciclotrone.md)
-- [Accelerazione ciclotronica](mcpd/accelerazione.md)
-- [Sincronizzazione RF](mcpd/sincronizzazione.md)
+---
 
-## 🔹 Compressione del Plasma
-- [MCPC — Compressione magnetica ciclotronica pulsata](mcpd/mcpc.md)
-- [Compressione θ‑pinch](mcpd/theta-pinch.md)
-- [Compressione longitudinale](mcpd/compressione-longitudinale.md)
+## 🔹 Ciclotrone e Dinamiche del Plasma
+- [Ciclotrone MCPD](mcpd/mcpd_ciclotrone.md)
+- [Dinamica del Ciclotrone](mcpd/mcpd_ciclotrone_dinamica.md)
+- [Dinamica del Plasma](mcpd/mcpd_plasma_dinamica.md)
+- [Compressione del Plasma](mcpd/mcpd_plasma_compressione.md)
+- [Espansione del Plasma](mcpd/mcpd_plasma_espansione.md)
 
-## 🔹 Theta Rail
-- [Struttura della Railway](mcpd/theta-rail.md)
-- [Confinamento del plasma nella guida](mcpd/confinamento-guida.md)
-- [Interfaccia con l’ugello](mcpd/interfaccia-ugello.md)
+---
+
+## 🔹 Compressione Magnetica e Onda Pulsante
+- [Compressione Magnetica](mcpd/mcpd_compressione_magnetica.md)
+- [Onda Pulsante — Dinamica](mcpd/mcpd_onda_pulsante_dinamica.md)
+- [Railway dell’Onda Pulsante](mcpd/mcpd_railway_onda_pulsante.md)
+
+---
+
+## 🔹 Confinamento e Coerenza Magnetica
+- [Confinamento del Plasma](mcpd/mcpd_confinamento_plasma.md)
+- [Coerenza Magnetica](mcpd/mcpd_coerenza_magnetica.md)
+- [Risonanza Magnetica](mcpd/mcpd_risonanza_magnetica.md)
+
+---
+
+## 🔹 Moduli Toroidali e Strutture Magnetiche
+- [Reattore Toroidale](mcpd/mcpd_reattore_toroidale.md)
+- [Tenaglia Toroidale](mcpd/mcpd_tenaglia_toroidale.md)
+- [Θ‑Dome Magnetico](mcpd/mcpd_theta_dome.md)
+- [Θ‑Ring Magnetico](mcpd/mcpd_theta_ring.md)
+
+---
 
 ## 🔹 Ugello Magnetico
-- [Collimazione del getto](mcpd/collimazione.md)
-- [Espulsione del plasma](mcpd/espulsione.md)
-- [Generazione della spinta](mcpd/spinta.md)
+- [Ugello Magnetico](mcpd/mcpd_ugello_magnetico.md)
 
-## 🔹 Controllo e Diagnostica
-- [Controllo dei campi](mcpd/controllo-campi.md)
-- [Telemetria e diagnostica](mcpd/diagnostica.md)
-- [Sicurezza operativa](mcpd/sicurezza.md)
+---
 
-## 🔹 Architettura Generale
-- [Schema del sistema](mcpd/architettura.md)
-- [Moduli funzionali](mcpd/moduli.md)
-- [Roadmap tecnica](mcpd/roadmap.md)
+## 🔹 Stabilità del Sistema MCPD
+- [Stabilità del Plasma](mcpd/mcpd_stabilita_plasma.md)
+- [Stabilità Magnetica](mcpd/mcpd_stabilita_magnetica.md)
+- [Stabilità della Compressione](mcpd/mcpd_stabilita_compressione.md)
+- [Stabilità Ciclica](mcpd/mcpd_stabilita_ciclica.md)
+- [Stabilità dell’Onda Pulsante](mcpd/mcpd_stabilita_onda_pulsante.md)
+- [Stabilità Energetica](mcpd/mcpd_stabilita_energetica.md)
+- [Stabilità del Reattore Toroidale](mcpd/mcpd_stabilita_reattore.md)
+- [Stabilità del Feedback Dinamico](mcpd/mcpd_stabilita_feedback.md)
+- [Stabilità del Sistema](mcpd/mcpd_stabilita_sistema.md)
 
 ---
 
 # 📡 Stato del progetto
-La documentazione viene aggiornata progressivamente.  
+La documentazione è completa e organizzata.  
 Ogni sezione è cliccabile e porta alla pagina tecnica corrispondente.
+
